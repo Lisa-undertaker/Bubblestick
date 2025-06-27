@@ -27,17 +27,19 @@
     </div>
   </div>
 
-    <script>
-    const video = document.getElementById('camera');
+   <script>
+  const video = document.getElementById('camera');
 
-    navigator.mediaDevices.getUserMedia({ video: true })
-      .then(stream => {
-        video.srcObject = stream;
-      })
-      .catch(error => {
-        console.error("Erreur d'accès à la caméra :", error);
-      });
-  </script>
+  navigator.mediaDevices.getUserMedia({
+    video: { facingMode: { exact: "environment" } }
+  })
+  .then(stream => {
+    video.srcObject = stream;
+  })
+  .catch(error => {
+    console.error("Erreur d'accès à la caméra :", error);
+  });
+</script>
 
     
 </body>
