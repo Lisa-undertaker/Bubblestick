@@ -86,25 +86,25 @@ h1 {
 }
 
 .chic {
-  left: 10%;
-  bottom: -10px;
+  left: 5%;
+  bottom: -300px;
   width: 180px;
 }
 
 .puff {
-  right: 10%;
-  bottom: -20px;
+  right: -70%;
+  bottom: -480px;
   width: 180px;
 }
 
 .donut {
-  left: -10px;
-  bottom: 120px;
-  width: 250px;
+  left: -300px;
+  bottom: -590px;
+  width: 380px;
 }
 
 .splash {
-  top: -30px;
+  top: 320px;
   right: 0;
-  width: 170px;
+  width: 200px;
 }
