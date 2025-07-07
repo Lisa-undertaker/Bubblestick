@@ -4,14 +4,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  font-family: sans-serif;
+  max-height: 100vh;
 }
 
 @font-face {
   font-family: 'Cold Snowflakes';
-  src: url('cold_snowflake/ColdSnowflake-Nine.otf') format('opentype');
+  src: url('cold_snowflake/ColdSnowflake-Nine.otf') format('truetype');
 }
+
+h1 {
+  font-size: 6em;
+  margin-bottom: 10px;
+  font-family: 'Cold Snowflakes', sans-serif;
+}
+
+
 
 .container {
   text-align: center;
@@ -20,22 +27,18 @@ body {
 }
 
 h1 {
-  font-size: 4em;
-  line-height: 1.2;
-  font-family: 'Cold Snowflakes', sans-serif;
-  margin: 0 0 20px 0;
+  font-size: 2.5em;
+  margin-bottom: 10px;
 }
 
 .bubble {
   color: #78b145;
   text-shadow: 1px 1px 0px #ffffff;
-  display: block;
 }
 
 .stick {
   color: #3bc8da;
   text-shadow: 2px 2px 0px #ffffff;
-  display: block;
 }
 
 .scan-text {
@@ -69,7 +72,6 @@ h1 {
   box-shadow: 0 4px 6px rgba(0,0,0,0.2);
   display: inline-block;
   transition: background-color 0.3s;
-  margin-top: 15px;
 }
 
 .btn:hover {
@@ -79,8 +81,6 @@ h1 {
 .decorations {
   position: relative;
   margin-top: 30px;
-  width: 100%;
-  height: 150px;
 }
 
 .decorations img {
