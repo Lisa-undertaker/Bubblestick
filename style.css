@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #dff4dd;
+  background-color: #eafbe8;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,25 +86,25 @@ h1 {
 }
 
 .chic {
-  left: 5%;
-  bottom: -80px;
+  left: 10%;
+  bottom: -10px;
   width: 180px;
 }
 
 .puff {
-  right: -70%;
-  bottom: -80px;
+  right: 10%;
+  bottom: -20px;
   width: 180px;
 }
 
 .donut {
-  left: -300px;
-  bottom: -90px;
-  width: 380px;
+  left: -10px;
+  bottom: 50px;
+  width: 160px;
 }
 
 .splash {
-  top: 60px;
+  top: -30px;
   right: 0;
-  width: 200px;
+  width: 170px;
 }
