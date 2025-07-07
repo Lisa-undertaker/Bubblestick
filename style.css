@@ -31,13 +31,13 @@ h1 {
 .bubble {
   color: #78b145;
   text-shadow: 1px 1px 0px #ffffff;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 .stick {
   color: #3bc8da;
   text-shadow: 2px 2px 0px #ffffff;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 .scan-text {
