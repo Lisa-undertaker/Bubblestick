@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #eafbe8;
+  background-color: #dff4dd;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,8 +17,6 @@ h1 {
   margin-bottom: 10px;
   font-family: 'Cold Snowflakes', sans-serif;
 }
-
-
 
 .container {
   text-align: center;
