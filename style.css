@@ -7,6 +7,19 @@ body {
   max-height: 100vh;
 }
 
+@font-face {
+  font-family: 'Cold Snowflakes';
+  src: url('cold_snowflake/ColdSnowflake-Nine.otf') format('truetype');
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  font-family: 'Cold Snowflakes', sans-serif;
+}
+
+
+
 .container {
   text-align: center;
   padding: 20px;
