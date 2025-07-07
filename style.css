@@ -90,23 +90,23 @@ h1 {
 .chic {
   left: 10%;
   bottom: -10px;
-  width: 80px;
+  width: 180px;
 }
 
 .puff {
   right: 10%;
   bottom: -20px;
-  width: 80px;
+  width: 180px;
 }
 
 .donut {
   left: -10px;
   bottom: 50px;
-  width: 60px;
+  width: 160px;
 }
 
 .splash {
   top: -30px;
   right: 0;
-  width: 70px;
+  width: 170px;
 }
