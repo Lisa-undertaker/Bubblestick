@@ -120,13 +120,13 @@ h1 {
 }
 
 .donut {
-  left: -70px;
-  bottom: 0;
-  width: 160px;
+  left: -60px;
+  bottom: 20;
+  width: 200px;
 }
 
 .splash {
-  right: 80px;
+  left: 80px;
   bottom: 0;
   width: 100px;
 }
