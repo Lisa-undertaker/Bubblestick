@@ -109,14 +109,14 @@ h1 {
 
 .chic {
   left: 10%;
-  bottom: 0;
+  bottom: 30px;
   width: 80px;
 }
 
 .puff {
   right: 10%;
   bottom: 0;
-  width: 80px;
+  width: 140px;
 }
 
 .donut {
@@ -126,7 +126,7 @@ h1 {
 }
 
 .splash {
-  left: 80px;
+  left: 50px;
   bottom: 0;
   width: 100px;
 }
