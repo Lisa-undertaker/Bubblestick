@@ -80,6 +80,13 @@ h1 {
 .btn-gallerie{
   background-color: #3bc8da;
   color: white;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  display: inline-block;
+  transition: background-color 0.3s;
 }
 
 .btn:hover {
