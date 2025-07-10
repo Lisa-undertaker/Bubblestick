@@ -23,8 +23,6 @@ h1 {
   font-family: 'Cold Snowflakes', sans-serif;
 }
 
-
-
 .container {
   text-align: center;
   padding: 20px;
@@ -178,7 +176,7 @@ h1 {
 .card .title {
   font-size: 1em;
   font-family: 'Josefin Sans', sans-serif;
-  color: #3bc8da;
+  color: #1e1e1e;
   margin-top: 2px;
 }
 
