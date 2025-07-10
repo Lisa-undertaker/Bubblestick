@@ -94,35 +94,40 @@ h1 {
 }
 
 .decorations {
-  position: relative;
-  margin-top: 30px;
+  position: fixed;  /* Fixe les décorations par rapport à la fenêtre */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  pointer-events: none; /* Pour ne pas bloquer les clics sur les boutons */
 }
 
 .decorations img {
   position: absolute;
 }
 
+
 .chic {
   left: 10%;
-  bottom: -10px;
+  bottom: 0;
   width: 80px;
 }
 
 .puff {
   right: 10%;
-  bottom: -20px;
+  bottom: 0;
   width: 80px;
 }
 
 .donut {
   left: -30px;
-  bottom: -50px;
+  bottom: 0;
   width: 60px;
 }
 
 .splash {
-  top: -30px;
   right: 0;
+  bottom: 0;
   width: 70px;
 }
 
