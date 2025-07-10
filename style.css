@@ -78,7 +78,8 @@ h1 {
 }
 
 .btn-gallerie{
-  color: #3bc8da;
+  background-color: #3bc8da;
+  color: white;
 }
 
 .btn:hover {
