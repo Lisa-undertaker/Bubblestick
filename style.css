@@ -154,7 +154,7 @@ h1 {
   text-align: center;
   padding: 10px; /* Réduit le padding pour moins d’espace sur les côtés */
   max-width: 480px; /* Garde un max-width adapté au mobile */
-  margin: 0 auto; /* Centre le container */
+  margin: 4px; /* Centre le container */
 }
 
 .gallery {
