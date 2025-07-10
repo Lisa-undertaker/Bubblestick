@@ -116,8 +116,6 @@ h1 {
 
 /*********************************************Gallery******************************************************/
 
-/*********************************************Gallery******************************************************/
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -126,7 +124,7 @@ h1 {
   padding: 10px 15px;
   margin-bottom: 20px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  width: 94vw;               /* Prend toute la largeur de l'écran */
+  width: 100vw;               /* Prend toute la largeur de l'écran */
   max-width: 100%;
   border-radius: 0;           /* Enlève les coins arrondis */
   box-sizing: border-box;     /* Pour inclure le padding */
@@ -153,7 +151,7 @@ h1 {
 .container {
   text-align: center;
   padding: 10px; /* Réduit le padding pour moins d’espace sur les côtés */
-  max-width: 300px; /* Garde un max-width adapté au mobile */
+  max-width: 480px; /* Garde un max-width adapté au mobile */
   margin: 0 auto; /* Centre le container */
 }
 
