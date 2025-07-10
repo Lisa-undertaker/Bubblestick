@@ -115,7 +115,7 @@ h1 {
 }
 
 .puff {
-  right: 2%;
+  right: 1%;
   bottom: 0;
   width: 140px;
 }
@@ -129,7 +129,8 @@ h1 {
 .splash {
   left: 80px;
   bottom: 0;
-  width: 100px;
+  width: 180px;
+  transform: rotate(25);
 }
 
 /*********************************************Gallery******************************************************/
