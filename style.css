@@ -110,3 +110,72 @@ h1 {
   right: 0;
   width: 70px;
 }
+
+/*********************************************Gallery******************************************************/
+
+/* Ajout spécifique pour la galerie */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 10px 15px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.header h1 {
+  font-size: 1.8em;
+  font-family: 'Cold Snowflakes', sans-serif;
+  margin: 0;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.header-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.card img {
+  width: 60px;
+  margin-bottom: 6px;
+}
+
+.card .code {
+  font-size: 0.8em;
+  color: #888;
+  margin: 0;
+}
+
+.card .title {
+  font-size: 1em;
+  font-family: 'Cold Snowflakes', sans-serif;
+  color: #78b145;
+  margin-top: 2px;
+}
+
+.locked img {
+  opacity: 0.6;
+}
