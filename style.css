@@ -47,6 +47,7 @@ h1 {
 .scan-text {
   font-size: 1.2em;
   margin-bottom: 15px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .circle-video {
@@ -126,7 +127,7 @@ h1 {
 }
 
 .splash {
-  left: 50px;
+  left: -50px;
   bottom: 0;
   width: 100px;
 }
