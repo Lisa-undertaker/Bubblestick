@@ -12,6 +12,11 @@ body {
   src: url('cold_snowflake/ColdSnowflake-Nine.otf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Josefin sans';
+  src: url('Josefin_Sans/JosefinSans-Medium.ttf') format('truetype');
+}
+
 h1 {
   font-size: 6em;
   margin-bottom: 10px;
@@ -172,7 +177,7 @@ h1 {
 
 .card .title {
   font-size: 1em;
-  font-family: 'Cold Snowflakes', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   color: #3bc8da;
   margin-top: 2px;
 }
